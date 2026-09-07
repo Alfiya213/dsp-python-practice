@@ -1,0 +1,49 @@
+# Aim: Know Your Lab and study Python features, data types,
+# operators, and control flow statements.
+
+# Python Features
+print("Welcome to Python Lab")
+
+# Variables and Data Types
+name = "Alfiya"       # String
+age = 20              # Integer
+marks = 85.5          # Float
+is_student = True     # Boolean
+
+print("\nData Types:")
+print("Name:", name, type(name))
+print("Age:", age, type(age))
+print("Marks:", marks, type(marks))
+print("Student:", is_student, type(is_student))
+
+# Operators
+a = 10
+b = 5
+
+print("\nOperators:")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Modulus:", a % b)
+print("Greater than:", a > b)
+print("Equal to:", a == b)
+
+# Control Flow - if-else
+print("\nControl Flow:")
+if marks >= 40:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
+
+# Control Flow - for loop
+print("\nFor Loop:")
+for i in range(1, 6):
+    print(i)
+
+# Control Flow - while loop
+print("\nWhile Loop:")
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
